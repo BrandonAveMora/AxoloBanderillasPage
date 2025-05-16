@@ -1,0 +1,22 @@
+---
+import Logo from './Logo.astro';
+---
+
+<header class="bg-white py-4 shadow-sm sticky top-0 z-50">
+  <div class="container-custom flex justify-between items-center">
+    <div class="flex items-center">
+      <Logo />
+      <h1 class="text-xl sm:text-2xl ml-2 text-axolo-brown font-display">
+        Axolo Banderillas
+      </h1>
+    </div>
+    <div class="flex items-center space-x-3">
+      <a href="#contact" class="hidden sm:block text-axolo-orange hover:text-axolo-brown transition-colors duration-200">
+        Contacto
+      </a>
+      <a href="#order" class="btn-primary text-sm sm:text-base">
+        Ordenar Ahora
+      </a>
+    </div>
+  </div>
+</header>

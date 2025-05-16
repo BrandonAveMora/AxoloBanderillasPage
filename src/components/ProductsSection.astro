@@ -1,0 +1,37 @@
+---
+import ProductCard from './ProductCard.astro';
+---
+
+<section class="py-12 bg-white">
+  <div class="container-custom">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-axolo-brown mb-4">Nuestros Productos</h2>
+      <p class="text-lg text-axolo-brown/80 max-w-2xl mx-auto">
+        Deliciosas banderillas coreanas y más especialidades preparadas con los mejores ingredientes
+      </p>
+    </div>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <ProductCard 
+        title="Banderillas Coreanas"
+        description="Nuestras deliciosas banderillas tradicionales con sabor único"
+        imageUrl="https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=800"
+        emoji="🍢"
+      />
+      
+      <ProductCard 
+        title="Banderillas Picantes"
+        description="Para los amantes del picante, con nuestra salsa especial"
+        imageUrl="https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=800"
+        emoji="🌶️"
+      />
+      
+      <ProductCard 
+        title="Banderillas Dulces"
+        description="La combinación perfecta de dulce y salado para sorprender tu paladar"
+        imageUrl="https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg?auto=compress&cs=tinysrgb&w=800"
+        emoji="🍬"
+      />
+    </div>
+  </div>
+</section>
